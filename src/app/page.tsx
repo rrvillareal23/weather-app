@@ -40,7 +40,7 @@ export default function Home() {
       setCitiesWeather((prev) => [...prev, newCityWeather]);
     } catch (error: any) {
       console.error("Error adding city:", error.message);
-      alert(error.message); // Or set an error state instead
+      alert(error.message);
     }
   };
 
